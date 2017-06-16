@@ -1717,14 +1717,14 @@ array(
 /************* widget areas *************/
 
 'widget-areas' => array(
-	'widget-area-left' => array(
+	'sidebar-2' => array(
 		'name' => __( 'Sidebar Left', 'septera' ),
 		'before_widget' => '<section id="%1$s" class="widget-container %2$s">',
 		'after_widget' => '</section>',
 		'before_title' => '<h2 class="widget-title"><span>',
 		'after_title' => '</span></h2>',
 	),
-	'widget-area-right' => array(
+	'sidebar-1' => array(
 		'name' => __( 'Sidebar Right', 'septera' ),
 		'before_widget' => '<section id="%1$s" class="widget-container %2$s">',
 		'after_widget' => '</section>',

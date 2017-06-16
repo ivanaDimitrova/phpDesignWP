@@ -9,8 +9,8 @@
 <aside id="primary" class="widget-area sidey" role="complementary" <?php cryout_schema_microdata( 'sidebar' );?>>
 	<?php cryout_before_primary_widgets_hook(); ?>
 
-	<?php if ( is_active_sidebar( 'widget-area-left' ) ):
-				dynamic_sidebar( 'widget-area-left' );
+	<?php if ( is_active_sidebar( 'sidebar-2' ) ):
+				dynamic_sidebar( 'sidebar-2' );
 			else:
   			  if ( current_user_can( 'edit_theme_options' ) ) { ?>
   				<section class="widget-container widget-placeholder">
@@ -23,11 +23,8 @@
   					</p>
   				</section>
   			<?php }
-  			if ( is_active_sidebar( 'sidebar-1' ) ) {
-  				dynamic_sidebar( 'sidebar-1' );
-  			} ?>
 
-  	<?php endif; ?>
+  		endif; ?>
 
 	<?php cryout_after_primary_widgets_hook(); ?>
 </aside>

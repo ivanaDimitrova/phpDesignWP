@@ -6,7 +6,7 @@ https://www.cryoutcreations.eu/
 Author: Cryout Creations
 Requires at least: 4.2
 Tested up to: 4.8.0
-Stable tag: 1.0.1
+Stable tag: 1.0.1.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: https://www.cryoutcreations.eu/donate/
@@ -77,12 +77,17 @@ The rest of the bundled images are created by Cryout Creations and released with
 
 == Changelog ==
 
+= 1.0.1.1 =
+* Changed slider/header overlay default opacity value once more
+* Replaced demo featured images with smaller ones
+* Changed left/right widget areas IDs
+
 = 1.0.1 =
 * Changed slider/header overlay default opacity value
 * Removed slider/header image grayscale effect
 * Updated default header image
 * Restored 'Reset Defaults' functionality accidentally removed
-* Added demo featured images for when theme is previewed 
+* Added demo featured images for when theme is previewed
 * Added support for the theme preview sample sidebar
 * Updated screenshot
 

@@ -9,9 +9,9 @@
 <aside id="secondary" class="widget-area sidey" role="complementary" <?php cryout_schema_microdata( 'sidebar' );?>>
 	<?php cryout_before_secondary_widgets_hook(); ?>
 
-	<?php if ( is_active_sidebar( 'widget-area-right' ) ):
-				dynamic_sidebar( 'widget-area-right' );
-		  else:
+	<?php if ( is_active_sidebar( 'sidebar-1' ) ) :
+		dynamic_sidebar( 'sidebar-1' );
+			  else:
 			  if ( current_user_can( 'edit_theme_options' ) ) { ?>
 				<section class="widget-container widget-placeholder">
 					<h3 class="widget-title"><?php _e( 'Right Sidebar', 'septera' ); ?></h3>
